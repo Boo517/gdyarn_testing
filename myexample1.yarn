@@ -1,0 +1,65 @@
+title: Start
+tags: 
+colorID: 0
+position: 419,-77
+---
+Here are some Options!
+[[pls|Please]]
+[[ahhh|PleaseWork]]
+[[options only|Yeah]]
+===
+title: Please
+tags: 
+colorID: 0
+position: 419,-445
+---
+please don't just exit
+[[PleaseWork]]
+===
+title: PleaseWork
+tags: 
+colorID: 0
+position: 851,-265
+---
+yeah man pls stop not working
+it sucks
+[[Yeah]]
+===
+title: Yeah
+tags: 
+colorID: 0
+position: 1154,-77
+---
+cmonnn man
+here's some shortcuts cause ur epic
+->start
+    do you really wanna go back?
+    haha jk u have no choice
+    ur goin to start
+    unless...
+    do you really not want to?
+    ->no
+        oh ok
+        sounds gucci
+        let's'a goooo
+        [[Start]]
+    ->yes
+        HAHAHA!
+        HAHA!
+        HA!
+        he...he
+        oh, you're serious, huh?
+        sorry m80
+        but if you don't wanna go to START, then...
+        YOU'LL HAVE TO  GO TO END 
+        MWAHAHAHAHAHAH
+        <<stop>>
+    ->a third option
+        three is a bad number go directly to start do not collect $300 AmazonCoin
+        [[Start]]
+->end
+    wait a (half) sec I wanna test wait
+    <<wait 0.5>>
+    ok we good
+    <<stop>>
+===

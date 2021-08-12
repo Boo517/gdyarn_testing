@@ -1,0 +1,236 @@
+title: Gaia 0
+tags: 
+colorID: 0
+position: -734,-38
+---
+She is huge, cloaked in layered robes and veils she rises above the other stands of the market like a bank of storm clouds over the horizon. When she speaks her voice is resonant and low. You feel it in your bones.[[Player 0]]
+===
+title: Player 0
+tags: 
+colorID: 0
+position: -412,-44
+---
+Player 1: Who are you, miss?[[Gaia 1]]
+Player 2: Why are you so big?
+Player 3: Do you sell things here?[[Gaia 18]]
+===
+title: Gaia 1
+tags: 
+colorID: 0
+position: -139,-32
+---
+Gaia1: My name is Crooked Gaia of the Grand Bazaar, little one. I am a jeweler, and, humbly, an exceptionally skilled one at that.
+Gaia: There are things among my wares that have made gods tremble, though they are not things I would ever consider selling to a mortal child.[[Player 1]]
+===
+title: Player 1
+tags: 
+colorID: 0
+position: 108,-25
+---
+Player1: Why are you ‘of the Grand Bazaar’?[[Gaia 2]]
+Player2: How does jewelry make a god tremble?[[Gaia 6]]
+===
+title: Gaia 2
+tags: 
+colorID: 0
+position: 494,-201
+---
+Gaia1: The Grand Bazaar is an immense market in the underground City of Brass at the mouth of hell. Lit by undying torches and echoing with the sounds of commerce at all hours of the day, for days have little meaning where you can’t see the sun, it smells of spices and incense and sweat and iron. 
+Gaia: I lived in the City of Brass once. I was the most well-known spell weaver in the Grand Bazaar until I was banished from my home by those cowardly bastards of the council.
+Gaia: I carry the name of my home as a reminder of what was taken from me and a reminder to never forget who it was that took it.[[Player 2]]
+===
+title: Player 2
+tags: 
+colorID: 0
+position: 806,-366
+---
+Player1: I have a grudge too. [[Player 3]]
+Player2: What did they take from you?[[Gaia 5]]
+===
+title: Gaia 3
+tags: 
+colorID: 1
+position: 1319,-611
+---
+Gaia1: Perhaps someday you’ll be able to see the error of your ways.
+===
+title: Gaia 4
+tags: 
+colorID: 1
+position: 1297,-320
+---
+Gaia2: You are wise beyond your years…
+===
+title: Player 3
+tags: 
+colorID: 0
+position: 1055,-460
+---
+Player1: It’s one I’d like to let go of though.[[Gaia 3]]
+Player2: It can feel good to have a grudge. Keeps you going.[[Gaia 4]]
+===
+title: Gaia 5
+tags: 
+colorID: 1
+position: 1089,-77
+---
+Gaia2: Something better not said, you would not understand it and your mind could not bear it.
+===
+title: Gaia 6
+tags: 
+colorID: 0
+position: 487,119
+---
+Gaia2: Well, excellent craftsmanship-
+Gaia: And magic helps too. Would you be interested in a little jewelry yourself?[[Player 4]]
+===
+title: Player 4
+tags: 
+colorID: 0
+position: 791,136
+---
+Player1: Sure![[Player 7 and Gaia 7]]
+Player2: I suppose I might be…[[Player 7 and Gaia 7]]
+Player3: I don't need any jewelry now, thank you.[[Gaia 17]]
+===
+title: Player 5
+tags: 
+colorID: 0
+position: 367,339
+---
+
+===
+title: Player 6
+tags: 
+colorID: 0
+position: 481,579
+---
+
+===
+title: Player 7 and Gaia 7
+tags: 
+colorID: 0
+position: 1259,224
+---
+Gaia1&2: Currently I have two pendants for sale. The first is a pendant of forest walking. The thickest brush and scrub will part before those who hold it. Briar, thistle, oak, and yew… No barrier of the forest will be able to hold the wielder of this pendant. It is of very high quality, you won't find anything like it… But really it has nothing on my second work…
+Gaia: The second is a protective pendant, the most powerful of its kind and my personal masterpiece. I am not making an empty claim when I say that no other in the world can duplicate the potency of its protective charm nor the quality of its craftsmanship, a fact that can be attested not only by the forces that have allowed me to ply my wares at this market but also by those who expelled me from my previous front of commerce. No harm will come to you with it on you, whether by supernatural or accidental means. 
+Gaia: It will cost you your heart. 
+Player: My heart! Don’t I need that?
+Gaia: You don’t really need your heart, not for most things anyway. You can walk without a heart, dance and revel; live and learn and love. It is a part of the contract of the purchase that I protect your heart as long as you live and I do not break my contracts.
+But… its your heart! Surely giving away your heart isn’t something so simple? After all, you only have the one… Are you getting the whole truth here?[[Player 8]]
+===
+title: Player 8
+tags: 
+colorID: 0
+position: 1514,232
+---
+Player1: Why would my heart be worth so much to you if you’ll just be stuck protecting it?[[Gaia 8]]
+Player2: I’ll take the forest walking pendant. [[Gaia 9]]
+Player3: I’ll take the protective pendant. I’ve never used my heart anyway. [[Gaia 12]]
+Player4: Give me both! I’m in the market for pendants.[[Gaia 13]]
+Player5: I need my heart and I need my money. No sale right now.[[Gaia 16]]
+===
+title: Gaia 8
+tags: 
+colorID: 1
+position: 1777,60
+---
+Gaia1: Oh this and that… nothing you should concern yourself with.
+===
+title: Gaia 9
+tags: 
+colorID: 0
+position: 1784,279
+---
+Her spindly hand stretches to you slowly, palm up, fingers splayed.
+Gaia: X coin please…[[Player 9]]
+===
+title: Player 9
+tags: 
+colorID: 0
+position: 2079,267
+---
+Player1: Here you go[[Gaia 10]]
+Player2: Actually, I can’t play that[[Gaia 11]]
+===
+title: Gaia 10
+tags: 
+colorID: 1
+position: 2318,168
+---
+Gaia1: Good.
+She grabs your coin, methodically counting them into her satchel before producing a scrawny vine, adorned with ivy leaves and a sprig of bright red berries.
+(if buying both)[[Gaia 14]]
+===
+title: Gaia 11
+tags: 
+colorID: 1
+position: 2331,392
+---
+Gaia2: Go find yourself the cash you need then, don't waste my time.
+(if buying both)[[Gaia 14]]
+===
+title: Gaia 12
+tags: 
+colorID: 1
+position: 1951,490
+---
+Gaia3: One second, this will not be pleasant.
+A long bony hand slides towards you and slides right into the center of your chest. It glides into you, passing through you like a ghost until you feel a sudden pressure in your chest. You flinch with pain for a second before there is a low sickening pop and your still beating heart is pulled out, not leaving even the slightest mark on your chest.
+Gaia: This will do
+    She pulls a thin leather cord from her bag, a jagged chunk of carved wood tied tightly to its end.
+(if buying both[[Gaia 15]])
+===
+title: Gaia 13
+tags: 
+colorID: 0
+position: 1704,592
+---
+Gaia: Mmmmm… Which do you wish to start with…[[Player 10]]
+===
+title: Player 10
+tags: 
+colorID: 0
+position: 1954,709
+---
+Player1: Forest pendant please. [[Gaia 9]]
+Player2: The protection pendant, I'd like to get this over with.[[Gaia 12]]
+===
+title: Gaia 14
+tags: 
+colorID: 0
+position: 2202,623
+---
+Gaia: And now for your heart…[[Gaia 12]]
+===
+title: Gaia 15
+tags: 
+colorID: 0
+position: 2204,832
+---
+Gaia: And for the forest pendant…[[Gaia 9]]
+===
+title: Gaia 16
+tags: 
+colorID: 1
+position: 1473,521
+---
+Gaia5: Well, money is certainly not the hardest thing to find here, and I promise this is the best deal you’ll get for that-
+    She taps your chest, right over your heart
+    Gaia: -anywhere here!
+    Even though you can't see her face, you can feel her smile.
+===
+title: Gaia 17
+tags: 
+colorID: 1
+position: 1037,418
+---
+Gaia3: When you realize your error, return.
+===
+title: Gaia 18
+tags: 
+colorID: 0
+position: -246,230
+---
+Gaia3: Jewelry, Would you be interested in a little yourself?[[Player 4]]
+===

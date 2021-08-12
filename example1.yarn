@@ -1,0 +1,90 @@
+title: Start
+tags: 
+colorID: 3
+position: 332,79
+---
+Hello, what should we set number variable to?
+<<set $visited = visit_count()>>
+-> Set Number to 6
+    <<set $number to 6 >>
+-> Set Number to 5
+    <<set $number to 5 >>
+We will also set a cat boolean
+-> to false
+    <<set $cat to false>>
+-> to true
+    <<set $cat to true>>
+[[no more line spacing between options!|Please]]
+[[ahhh|PleaseWork]]
+[[2|SecondNode]]
+===
+title: Please
+tags: 
+colorID: 0
+position: 419,-445
+---
+please don't just exit
+[[PleaseWork]]
+===
+title: PleaseWork
+tags: 
+colorID: 0
+position: 851,-265
+---
+yeah man pls stop not working
+it sucks
+[[Yeah]]
+===
+title: Yeah
+tags: 
+colorID: 0
+position: 1154,-77
+---
+cmonnn man
+here's some shortcuts cause ur epic
+->start
+    do you really wanna go back?
+    haha jk u have no choice
+    ur goin to start
+    unless...
+    do you really not want to?
+    ->no
+        oh ok
+        sounds gucci
+        let's'a goooo
+        [[Start]]
+    ->yes
+        HAHAHA!
+        HAHA!
+        HA!
+        he...he
+        oh, you're serious, huh?
+        sorry m80
+        but if you don't wanna go to START, then...
+        YOU'LL HAVE TO  GO TO END 
+        MWAHAHAHAHAHAH
+        <<stop>>
+    ->a third option
+        three is a bad number go directly to start do not collect $300 AmazonCoin
+        [[Start]]
+->end
+    wait a (half) sec I wanna test wait
+    <<wait 0.5>>
+    ok we good
+    <<stop>>
+===
+title: SecondNode
+tags: 
+position: 678.16,263.66
+---
+sweet - Now we are in the Second node
+->this one only shows when Visit count of first node is 1 <<if $visited == 1>>
+->This option is only showing because cat variable is true <<if $cat == true>>
+    ok then I guess cat is true
+->Some other option with no requirement
+    this is some other option woooooohooo
+->This shows when number greater than 5 <<if $number > 5 >>
+    Coool, yes the number was greater than 5 <<set $number to 1>>
+    But not anymore! ha
+Now we are finished, GoodBye!
+===

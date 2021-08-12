@@ -1,0 +1,141 @@
+title: Start
+tags: 
+colorID: 3
+position: -424,314
+---
+Hello, what should we set number variable to?
+<<set $visited = visit_count()>>
+-> Set Number to 6
+    <<set $number to 6 >>
+-> Set Number to 5
+    <<set $number to 5 >>
+We will also set a cat boolean
+-> to false
+    <<set $cat to false>>
+    [[NoCat]]
+-> to true
+    <<set $cat to true>>
+    so ya like cats huh?
+    ->yes
+        heres some choccy milk cause ur epic
+    ->no
+        well OKAY then...
+        cat privileges REVOKED
+        <<set $cat to false>>
+        are you proud of yourself?
+        this is just an example for more crazy nesting stuff
+        WELCOME TO WARP ZONE
+        ->Please
+            [[Please]]
+        ->Pass
+            Passing...
+now choose an OPTION:
+[[no more line spacing between options!|Please]]
+[[ahhh|PleaseWork]]
+[[2|SecondNode]]
+===
+title: Please
+tags: 
+colorID: 0
+position: -920,314
+---
+please don't just exit
+[[PleaseWork]]
+===
+title: PleaseWork
+tags: 
+colorID: 0
+position: -930,-81
+---
+yeah man pls stop not working
+it sucks
+[[Yeah]]
+===
+title: Yeah
+tags: 
+colorID: 0
+position: -610,-81
+---
+cmonnn man
+here's some shortcuts cause ur epic
+->start
+    do you really wanna go back?
+    haha jk u have no choice
+    ur goin to start
+    unless...
+    do you really not want to?
+    ->no
+        oh ok
+        sounds gucci
+        let's'a goooo
+        [[Start]]
+    ->yes
+        HAHAHA!
+        HAHA!
+        HA!
+        he...he
+        oh, you're serious, huh?
+        sorry m80
+        but if you don't wanna go to START, then...
+        YOU'LL HAVE TO  GO TO END 
+        MWAHAHAHAHAHAH
+        <<stop>>
+    ->a third option
+        three is a bad number go directly to start do not collect $300 AmazonCoin
+        [[Start]]
+->end
+    wait a (half) sec I wanna test wait
+    <<wait 0.5>>
+    ok we good
+    <<stop>>
+===
+title: SecondNode
+tags: 
+colorID: 0
+position: -73,314
+---
+sweet - Now we are in the Second node
+->this one only shows when Visit count of first node is 1 <<if $visited == 1>>
+->This option is only showing because cat variable is true <<if $cat == true>>
+    ok then I guess cat is true
+->Some other option with no requirement
+    this is some other option woooooohooo
+->This shows when number greater than 5 <<if $number > 5 >>
+    Coool, yes the number was greater than 5 <<set $number to 1>>
+    But not anymore! ha
+Now we are finished, GoodBye!
+===
+title: NoCat
+tags: 
+colorID: 0
+position: -248,-81
+---
+so no cat?
+well, how about Beeg Yoshi?
+->I hate him that stupid binch
+    oh no
+    don't say it so loud!
+    ...he could be listening at any time...
+    <<show_yosh>>
+    oh no...
+    *what will you say to the Yosh?*
+    ->I am sorry, great Beeg One.
+        *the Yosh contemplates your answer*
+        *...*
+        *it seems your answer was sufficient*
+        <<hide_yosh>>
+    ->Fucka You, ya great green bastard!
+        <<toggleyosh BADTIME>>
+        YOU DIED
+        <<stop>>
+->UwU
+    Beeg Yoshi: You are the light that shines in the darkness, young one...
+    Bigge Yosh: Your quest is not over yet...
+    Lorge Boshi: And you will face many hardships in the days to come...
+    Voluminous Dino: But know that despite how hopeless it may seem in the moment, I have seen a future of clear waters, bountiful forests, fields of vibrant wildflowers, smiling faces, peace...
+    Fat Green Bruh: You have my blessing. As long as you hold hope in your heart you will succeed....
+    Why does he have a shell if he's a dinosaur?: I must leave you now, but know that you can call on me whenever you need my guidance. 
+    Rounded Lizard-Beast: G o o d   l u c k
+    <<hide_yosh>>
+[[SecondNode]]
+===
