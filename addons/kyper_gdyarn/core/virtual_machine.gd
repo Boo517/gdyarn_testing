@@ -198,7 +198,7 @@ func run_instruction(instruction)->bool:
 
 				var command = Command.new(commandText)
 
-				var pause = commandHandler.call_func(command) as int
+				var pause = commandHandler.call_func(command)
 				if pause == YarnGlobals.HandlerState.PauseExecution:
 					executionState = YarnGlobals.ExecutionState.Suspended
 

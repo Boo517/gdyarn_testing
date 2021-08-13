@@ -162,12 +162,15 @@ func _pass_line(lineText:String):
 			next_line = lineText
 
 func _handle_command(command):
-	commandHandlers[command.command_name].call_func(command.args)
+	commandHandlers[command.command_name].call_func(command.args, self)
 	if command.blocking:
 		return YarnGlobals.HandlerState.PauseExecution
 	else:
 		return YarnGlobals.HandlerState.ContinueExecution
-
+		
+func finish_block():
+	_dialogue.resume()
+	
 func _handle_options(optionSet):
 	print("options: %s"%optionSet.options.size())
 	for option in optionSet.options:
