@@ -125,7 +125,7 @@ well, how about Beeg Yoshi?
         *it seems your answer was sufficient*
         <<hide_yosh>>
     ->Fucka You, ya great green bastard!
-        <<toggleyosh BADTIME>>
+        <<:toggleyosh BADTIME>>
         YOU DIED
         <<stop>>
 ->UwU
